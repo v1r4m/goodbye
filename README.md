@@ -35,20 +35,51 @@
 3월에는 [멀티코어](https://github.com/v1r4m/multicore)에 대해서 공부했습니다. (private repo)
 ![image](https://user-images.githubusercontent.com/26866063/147806236-580fe55f-6040-4f5b-b1e0-312d764c2ded.png)
 ![image](https://user-images.githubusercontent.com/26866063/147806249-e15f7843-62e9-43df-b02b-2499bb995e20.png)
+
+
 여러가지 코드들을 써보며 자바에서 멀티코어를 핸들링하는 방법들을 배웠어요.
 
 머신러닝을 할 때에는 파이썬으로 하긴 했지만, 머신러닝을 배우며 요긴하게 쓰였습니다. GPU쓰는 거야 파이썬에서 명령어 한 줄 쓰면 된다지만 그것들을 최적화 하는 것은 또 다른 문제니까요. 2020년 머신러닝 뉴스 추천 프로젝트를 할 때 학교 선배가 GPU최적화 하는 것을 봤던 경험이 또 큰 도움을 줬습니다. 저의 곁을 스쳐지나갔던 많은 선배님들, 은사님들, 도움주신 분들.. 결국엔 그것들이 모여 조금이라도 뭔가를 할 수 있는 원동력이 나오지 않나 싶습니다. 간단한 GPU최적화 없이 그것들을 어떻게 했을지..생각하면 등골이 서늘해요. VScode가 유난히 말을 안들어서 colab에서 머신러니을 한 적이 있는데, colab하루 무료용량을 써버리고 나니 20분걸릴 학습이 10시간 걸린다고 tqdm에 찍혔을 때의 무서움이란.
 
-## 2021.7
-<img src=https://img.shields.io/badge/python3-3.9.9-brightgreen>
-<img src=https://img.shields.io/badge/KoNLPy-0.5.2-brightgreen>
-<img src=https://img.shields.io/badge/KoNLPy-0.5.2-brightgreen>
+## 2021.6
+<img src=https://img.shields.io/badge/python3-3.9.9-brightgreen><img src=https://img.shields.io/badge/KoNLPy-0.5.2-brightgreen><img src=https://img.shields.io/badge/Tweepy-3.10.0-brightgreen>
 
+파이썬에서 NLP하기! 와! 쉽다! 그냥 아무거나 크롤링한 다음에 라이브러리 돌리면 끝! ...수준의 [짧고 민망한 프로젝트](https://github.com/v1r4m/NLP)를 진행했습니다.(private repo)
+트위터에서 특정단어가 특정단어와 얼마나 연관되어 있는지, 즉, 냅다 1단어를 검색해 그 단어를 포함한 트윗들을 추린 다음에, 그 트윗들 중 냅다 2단어를 검색한 다음에 나온 트윗의 숫자가 두 단어의 연관성이 되는 것이지요. 이는 단어의 연관성도 가능하고, 집단의 연관성도 가능합니다. 저는 좀 더 오타쿠적인 관점에서, 붕괴와 메이플을 동시에 언급하는 숫자와 붕괴와 아이마스를 동시에 언급하는 숫자의 차이 같은 것을 보려고 했고, 실제로도 재밌었어요. 아웃풋 DB를 잘 짠 다음에 mySQL에 집어넣어 통계를 좀 추리고 싶었는데, 임시로 뽑아둔 csv가 25000라인밖에 없었던지라.. 기회가 된다면 DB구축까지 해보고 싶어요. 아무튼 그다지 깊이는 없었지만 재미있게 NLP에 발끝을 담가볼 수 있었던 좋은 기회였습니다.
+
+## 2021.7
+<img src=https://img.shields.io/badge/python3-3.9.9-brightgreen><img src=https://img.shields.io/badge/pytroch-1.10.0-brightgreen>
+
+이건 너무 길기때문에 링크로 대체하겠습니다! 제가 2021년 안에 링크를 만들 수 있을까요?
+
+우선 저처럼 찐따감자학부생에게도 이렇게 좋은 기회를 주신 교수님께 감사하고, 또 완성하지 못한 수많은 실패와 번뇌의 밤들에 죄송합니다.. ML을 1년내내 공부했지만 그럼에도 나 ML좀 할 줄 안다~ 라고 말할 자신감은 0에 수렴하는데요, 그런 저에게도 참 재밌는 프로젝트였던 것 같아요. 감사합니다. 파이토치는 거의 끝까지 구경도 못해보고, 머신 러닝의 기초, 즉, 파이토치가 없어도 수학적으로 해결할 수 있는 머신러닝을 중점적으로 배웠어요. 아주 어렵고, 아주 힘들었는데다가, 결과도 썩 보기 좋았던 건 아니었지만, 저는 정말 많은 것을 배웠고, 머신 러닝을 배우기에 가장 올바른 방법으로 배웠다고 생각합니다.
+
+## 2021.8
+<img src=https://img.shields.io/badge/python3-3.9.9-brightgreen><img src=https://img.shields.io/badge/socket.io-3.0.4-brightgreen>
+
+![image](https://user-images.githubusercontent.com/26866063/147807772-8a121bec-4c54-409d-aa1e-be4f6642ebfa.png)
+
+파이썬 커맨드로 작동하는 [서버/클라이언트 채팅 프로그램](https://github.com/v1r4m/networking)을 만들었습니다.(private repo)학교 리눅스 서버의 특정 포트를 이용하여 학교에 서버 코드를 올리고 클라이언트들로 접속해 채팅을 하는 식이지요. 소켓을 다룬 경험을 살릴수 있어서 정말 재밌게 했던 프로젝트였어요. 채팅뿐만 아니라 지원해야 하는 기능이 많았습니다.
+### feature
+* chatting
+* show current time, chatting people
+* set nickname
+* ban forbidden word
+* direct message
+* command with slash('/')
+* exit gracefully
+
+그와 별개로, 정말 프로그래밍이란 고려할 요소가 많다고 느꼈습니다. UDP/TCP의 특성을 알고 잘 활용하여 선택해야 하고, 다중 클라이언트를 지원하다 보니 멀티태스킹이 되어야 하는데, 이를 멀티쓰레드로 하는건 다들 알다시피 너무 비효율적이라, 이를 여러 방법으로 잘 해결해야 했지요. 채팅창에 닉네임이라도 추가하려고 하면 그 닉네임이 중복이 되지 않게 하도록 검사해야 하는 건 덤이구요. 동일 IP에서 접속하는 것도 핸들링해야했지요.
 
 # welcome 2022
 2022년에는.. 취업을 하면 좋겠고! 그러니까 이걸 1순위로 두겠습니다.
 * 취업
 
+음.. 또 회고를 작성하다 보니 뭐만 하면 프라이빗 레포 이러는게 좀 아쉬워서, 여기에 언급했던 프로젝트들의 description page를 만들어야겠다고 생각했습니다.
+* description page 만들기
 
 그리고 나서는 제가 개인적으로 이루고 싶은 것들을 생각해볼게요.
 * 커밋을 좀 더 자주, 많이 하는 습관 들이기 (몰아서 하지 말기)
+* 골고루 잘 먹고, 규칙적이고 건강한 생활 하기! :)
+* 아날로그 다이어리를 성실하게 쓰기
+* 나 자신을 정말정말 사랑하고, 내가 정말정말 멋진 개발자라고 생각하기!!! (실제로는 아니더라도!!)
